@@ -4,7 +4,7 @@ import util from 'util';
 // config should be imported before importing any other file
 import config from './config/config';
 import app from './config/express';
-
+/*
 const debug = require('debug')('express-mongoose-es6-rest-api:index');
 
 // make bluebird default Promise
@@ -25,7 +25,7 @@ if (config.MONGOOSE_DEBUG) {
   mongoose.set('debug', (collectionName, method, query, doc) => {
     debug(`${collectionName}.${method}`, util.inspect(query, false, 20), doc);
   });
-}
+}*/
 
 // module.parent check is required to support mocha watch
 // src: https://github.com/mochajs/mocha/issues/1912
